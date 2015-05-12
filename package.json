@@ -1,0 +1,25 @@
+{
+  "name": "mc",
+  "version": "1.0.0",
+  "description": "Mango CLI helps deploy mango websites to the mangoictcloud.com environment.",
+  "main": "main.js",
+  "scripts": {
+    "test": "mango"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mango-ict/mango-cli.git"
+  },
+  "keywords": [
+    "mango",
+    "cli",
+    "cloud",
+    "mangoict"
+  ],
+  "author": "Gerhard Richard Edens",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mango-ict/mango-cli/issues"
+  },
+  "homepage": "https://github.com/mango-ict/mango-cli"
+}
