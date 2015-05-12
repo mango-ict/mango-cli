@@ -11,17 +11,17 @@
 7 silly cache add   rawSpec: '.',
 7 silly cache add   spec: '/Users/redens/Documents/mango-cli',
 7 silly cache add   type: 'directory' }
-8 verbose addLocalDirectory /Users/redens/.npm/mc/1.0.0/package.tgz not in flight; packing
-9 verbose tar pack [ '/Users/redens/.npm/mc/1.0.0/package.tgz',
+8 verbose addLocalDirectory /Users/redens/.npm/mango-cli/1.0.0/package.tgz not in flight; packing
+9 verbose tar pack [ '/Users/redens/.npm/mango-cli/1.0.0/package.tgz',
 9 verbose tar pack   '/Users/redens/Documents/mango-cli' ]
-10 verbose tarball /Users/redens/.npm/mc/1.0.0/package.tgz
+10 verbose tarball /Users/redens/.npm/mango-cli/1.0.0/package.tgz
 11 verbose folder /Users/redens/Documents/mango-cli
-12 info prepublish mc@1.0.0
-13 verbose addLocalTarball adding from inside cache /Users/redens/.npm/mc/1.0.0/package.tgz
-14 silly cache afterAdd mc@1.0.0
-15 verbose afterAdd /Users/redens/.npm/mc/1.0.0/package/package.json not in flight; writing
-16 verbose afterAdd /Users/redens/.npm/mc/1.0.0/package/package.json written
-17 silly publish { name: 'mc',
+12 info prepublish mango-cli@1.0.0
+13 verbose addLocalTarball adding from inside cache /Users/redens/.npm/mango-cli/1.0.0/package.tgz
+14 silly cache afterAdd mango-cli@1.0.0
+15 verbose afterAdd /Users/redens/.npm/mango-cli/1.0.0/package/package.json not in flight; writing
+16 verbose afterAdd /Users/redens/.npm/mango-cli/1.0.0/package/package.json written
+17 silly publish { name: 'mango-cli',
 17 silly publish   version: '1.0.0',
 17 silly publish   description: 'Mango CLI helps deploy mango websites to the mangoictcloud.com environment.',
 17 silly publish   main: 'main.js',
@@ -34,37 +34,38 @@
 17 silly publish   license: 'MIT',
 17 silly publish   bugs: { url: 'https://github.com/mango-ict/mango-cli/issues' },
 17 silly publish   homepage: 'https://github.com/mango-ict/mango-cli',
+17 silly publish   gitHead: '31635b33ec040fd59854a3305969aec759c6a867',
 17 silly publish   readme: 'ERROR: No README data found!',
-17 silly publish   _id: 'mc@1.0.0',
-17 silly publish   _shasum: 'bfe9ca8534e560fb2cb20c3a46d791b083f7981c',
+17 silly publish   _id: 'mango-cli@1.0.0',
+17 silly publish   _shasum: '5c9e11eb473a9d7a3c16d43672fa7c296d6dc50a',
 17 silly publish   _from: '.' }
-18 silly mapToRegistry name mc
+18 silly mapToRegistry name mango-cli
 19 silly mapToRegistry using default registry
 20 silly mapToRegistry registry https://registry.npmjs.org/
-21 silly mapToRegistry uri https://registry.npmjs.org/mc
+21 silly mapToRegistry uri https://registry.npmjs.org/mango-cli
 22 verbose publish registryBase https://registry.npmjs.org/
-23 silly publish uploading /Users/redens/.npm/mc/1.0.0/package.tgz
-24 verbose request uri https://registry.npmjs.org/mc
+23 silly publish uploading /Users/redens/.npm/mango-cli/1.0.0/package.tgz
+24 verbose request uri https://registry.npmjs.org/mango-cli
 25 verbose request sending authorization for write operation
-26 info attempt registry request try #1 at 8:35:27 PM
+26 info attempt registry request try #1 at 9:03:05 PM
 27 verbose request using bearer token for auth
-28 verbose request id 742c4146111af385
-29 http request PUT https://registry.npmjs.org/mc
-30 http 404 https://registry.npmjs.org/mc
+28 verbose request id 6b693165e58ba1cc
+29 http request PUT https://registry.npmjs.org/mango-cli
+30 http 404 https://registry.npmjs.org/mango-cli
 31 verbose headers { 'content-type': 'application/json',
 31 verbose headers   'cache-control': 'max-age=0',
 31 verbose headers   'content-length': '21',
 31 verbose headers   'accept-ranges': 'bytes',
-31 verbose headers   date: 'Tue, 12 May 2015 18:35:28 GMT',
+31 verbose headers   date: 'Tue, 12 May 2015 19:03:06 GMT',
 31 verbose headers   via: '1.1 varnish',
 31 verbose headers   connection: 'keep-alive',
-31 verbose headers   'x-served-by': 'cache-fra1223-FRA',
+31 verbose headers   'x-served-by': 'cache-fra1235-FRA',
 31 verbose headers   'x-cache': 'MISS',
 31 verbose headers   'x-cache-hits': '0',
-31 verbose headers   'x-timer': 'S1431455727.896830,VS0,VE709' }
-32 verbose request invalidating /Users/redens/.npm/registry.npmjs.org/mc on PUT
+31 verbose headers   'x-timer': 'S1431457386.131988,VS0,VE679' }
+32 verbose request invalidating /Users/redens/.npm/registry.npmjs.org/mango-cli on PUT
 33 error publish Failed PUT 404
-34 verbose stack Error: Not found : mc
+34 verbose stack Error: Not found : mango-cli
 34 verbose stack     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:247:14)
 34 verbose stack     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:170:14)
 34 verbose stack     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:344:22)
@@ -76,16 +77,16 @@
 34 verbose stack     at _stream_readable.js:908:16
 34 verbose stack     at process._tickCallback (node.js:355:11)
 35 verbose statusCode 404
-36 verbose pkgid mc
+36 verbose pkgid mango-cli
 37 verbose cwd /Users/redens/Documents/mango-cli
 38 error Darwin 14.3.0
 39 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "publish"
 40 error node v0.12.2
 41 error npm  v2.7.4
 42 error code E404
-43 error 404 Not found : mc
+43 error 404 Not found : mango-cli
 43 error 404
-43 error 404 'mc' is not in the npm registry.
+43 error 404 'mango-cli' is not in the npm registry.
 43 error 404 You should bug the author to publish it (or use the name yourself!)
 43 error 404
 43 error 404 Note that you can also install from a

@@ -1,5 +1,5 @@
 {
-  "name": "mc",
+  "name": "mango-cli",
   "version": "1.0.0",
   "description": "Mango CLI helps deploy mango websites to the mangoictcloud.com environment.",
   "main": "main.js",
@@ -21,5 +21,5 @@
   "bugs": {
     "url": "https://github.com/mango-ict/mango-cli/issues"
   },
-  "homepage": "https://github.com/mango-ict/mango-cli"
+  "homepage": "https://www.mangoict.com"
 }
