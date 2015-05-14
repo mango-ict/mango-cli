@@ -1,3 +1,3 @@
 exports.printMsg = function() {
-  console.log("Mango CLI - create and deploy you mango website for the mangoictcloud.com");
+  console.log("Mangosys is a CommenJS library that can be used both client side and server side to act as a mid application layer for your mango website.");
 }

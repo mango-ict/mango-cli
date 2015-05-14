@@ -1,25 +1,22 @@
 {
-  "name": "mango-cli",
-  "version": "1.0.0",
-  "description": "Mango CLI helps deploy mango websites to the mangoictcloud.com environment.",
+  "name": "mangosys",
+  "version": "1.0.2",
+  "description": "Mangosys is a CommenJS library that can be used both client side and server side to act as a mid application layer for your mango website.",
   "main": "main.js",
-  "scripts": {
-    "test": "mango"
-  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mango-ict/mango-cli.git"
+    "url": "https://github.com/mango-ict/mangosys.git"
   },
   "keywords": [
     "mango",
-    "cli",
+    "mangosys",
     "cloud",
     "mangoict"
   ],
   "author": "Gerhard Richard Edens",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mango-ict/mango-cli/issues"
+    "url": "https://github.com/mango-ict/mangosys/issues"
   },
-  "homepage": "https://www.mangoict.com"
+  "homepage": "https://www.mangoict.com/docs_mangosys"
 }
