@@ -2,18 +2,9 @@
 
 We are still heavily developing on this NodeJS library. There is an NPM package registered but this is to protect the project name not begin available at time of release!
 
-# mangosys
-Mangosys is a CommenJS library that can be used both client side and server side to act as a mid application layer for your mango website.
+# Documentation
 
-[![NPM Version][npm-image]][npm-url]
-[![Node Version][node-image]][node-url]
-  
-## Installation
-To install the Mango ICT - mangosys into your project you just need to type in the following.
-
-```
-npm install mangosys --save
-```
+Comming soon
 
 
 ## License
